@@ -5,12 +5,12 @@ issueTrackerURL="https://github.com/xfl03/MCCustomSkinLoader/issues"
 [[mods]]
 modId="customskinloader"
 version="${modFullVersion}"
-displayName="CustomSkinLoader"
+displayName="CelsoSkinLoader"
 description='''
-Custom Skin Loader for Minecraft
+Celso Skin Loader for Minecraft
 '''
 displayURL="https://github.com/xfl03/MCCustomSkinLoader"
-authors="xfl03, JLChnToZ, ZekerZhayard"
+authors="xfl03, JLChnToZ, ZekerZhayard, Celso319"
 [[dependencies.customskinloader]]
 modId="forge"
 mandatory=true

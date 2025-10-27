@@ -1,7 +1,7 @@
 [
   {
     "modid": "customskinloader",
-    "name": "CelsoSkin",
+    "name": "CelsoSkinLoader",
     "description": "Carregador de Skins do Celso",
     "version": "${modFullVersion}",
     "url": "https://github.com/Celso319/MCTioCelso",

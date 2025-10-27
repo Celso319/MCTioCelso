@@ -72,7 +72,7 @@ subprojects {
 
     // For real subprojects
     if (!config.is_real_project || Boolean.parseBoolean(config.is_real_project.toString())) {
-        archivesBaseName = "CustomSkinLoader_${-> VersionUtil.getEdition(project)}"
+        archivesBaseName = "CelsoSkinLoader_${-> VersionUtil.getEdition(project)}"
 
         processResources {
             filesNotMatching(["**/*.js", "**/accesstransformer.cfg", "mixins.*.json"]) {
