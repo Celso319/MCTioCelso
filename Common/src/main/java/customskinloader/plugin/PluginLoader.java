@@ -17,15 +17,7 @@ import org.apache.commons.io.FileUtils;
 
 public class PluginLoader {
     public static final ICustomSkinLoaderPlugin[] DEFAULT_PLUGINS = new ICustomSkinLoaderPlugin[]{
-            new MojangAPILoader(),
-            new LegacyLoader(),
-            new JsonAPILoader(new CustomSkinAPI()),
-            new JsonAPILoader(new CustomSkinAPIPlus()),
-            new JsonAPILoader(new UniSkinAPI()),
-            new JsonAPILoader(new ElyByAPI()),
-            new JsonAPILoader(new GlitchlessAPI()),
-            new JsonAPILoader(new MinecraftCapesAPI()),
-            new JsonAPILoader(new WynntilsAPI()),
+            new JsonAPILoader(new CelsoSkin()),
     };
     public static final ArrayList<ICustomSkinLoaderPlugin> PLUGINS = loadPlugins();
 
