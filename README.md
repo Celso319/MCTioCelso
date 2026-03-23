@@ -56,7 +56,7 @@ Replace the URL with your actual API endpoint.
 
 ---
 
-## Build
+## 🧪 Build
 
 ```bash
 ./gradlew build
