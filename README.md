@@ -34,3 +34,74 @@ This fork modifies the default skin loading behavior to integrate with a custom 
 ## ⚙️ Configuration
 
 Config files are generated on first run:
+
+```
+.minecraft/CustomSkinLoader/
+```
+
+Example configuration:
+
+```json
+{
+  "loadlist": [
+    {
+      "type": "CustomSkinAPI",
+      "root": "https://your-skin-api.example.com/"
+    }
+  ]
+}
+```
+
+Replace the URL with your actual API endpoint.
+
+---
+
+## Build
+
+```bash
+./gradlew build
+```
+
+Output:
+
+```
+build/libs/
+```
+
+---
+
+## 📦 Requirements
+
+- Java 8 or higher  
+- Gradle (wrapper included)
+
+---
+
+## 📁 Project Structure
+
+- `Common/` → Shared logic  
+- `Fabric/` → Fabric implementation  
+- `Forge/` → Forge versions  
+- `Vanilla/` → Mixin-based version  
+- `buildSrc/` → Build logic  
+
+---
+
+## ⚠️ Notes
+
+- This is a modified fork, not the original project  
+- Behavior may differ from upstream  
+- Report issues related to this fork here  
+
+---
+
+## 🙌 Credits
+
+- Original project: CustomSkinLoader contributors  
+- Modifications: Celso  
+
+---
+
+## 📄 License
+
+Same as the original project unless stated otherwise.
